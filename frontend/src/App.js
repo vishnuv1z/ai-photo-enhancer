@@ -109,13 +109,13 @@ function App() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-sm font-medium mb-4">
             <Sparkles size={14} />
-            <span>AI Powered Processing</span>
+            <span>Smart Image Processing</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-400 tracking-tight mb-4">
             AI Photo Enhancer
           </h1>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Transform your low-quality images into high-definition masterpieces with professional-grade AI restoration.
+            Enhance and upscale your images using optimized image processing techniques for better clarity and detail.
           </p>
         </motion.div>
 
@@ -267,9 +267,9 @@ function App() {
         {/* Feature Highlights */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 w-full max-w-4xl">
           {[
-            { icon: <Sparkles className="text-purple-400" />, title: "AI Upscaling", text: "Intelligent detail recovery using neural networks." },
-            { icon: <ImageIcon className="text-blue-400" />, title: "HDR Enhance", text: "Dynamic range optimization for vibrant colors." },
-            { icon: <CheckCircle2 className="text-emerald-400" />, title: "Instant Result", text: "Fast processing with professional-grade quality." }
+            { icon: <Sparkles className="text-purple-400" />, title: "High-Quality Upscaling", text: "Enhances resolution using advanced interpolation techniques." },
+            { icon: <ImageIcon className="text-blue-400" />, title: "Sharpen & Enhance", text: "Improves clarity with subtle sharpening and contrast adjustment." },
+            { icon: <CheckCircle2 className="text-emerald-400" />, title: "Fast Processing", text: "Quick image enhancement with real-time preview." }
           ].map((feature, i) => (
             <motion.div 
               key={i}
@@ -289,7 +289,7 @@ function App() {
 
         {/* Footer */}
         <footer className="mt-20 text-slate-500 text-sm">
-          <p>© 2026 AI Photo Enhancer. Powered by Advanced Neural Networks.</p>
+          <p>© 2026 AI Photo Enhancer. Built using Flask & OpenCV.</p>
         </footer>
       </div>
     </div>
